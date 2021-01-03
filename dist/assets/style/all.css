@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* 全站設定 */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.head_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.material-icons {
+  color: #2A8356; }
+  .material-icons:hover {
+    color: #121212;
+    text-decoration: none; }
+
+.container-fluid {
+  padding: 0; }
+
+.content {
+  min-width: 76.875%;
+  min-height: 100vh;
+  padding: 32px;
+  color: #121212; }
+
+.position_r {
+  position: relative; }
+
+.aside_menu {
+  min-width: 23.125%;
+  min-height: 100vh;
+  background-color: #EDF4EE;
+  padding: 32px 0px; }
+  .aside_menu h1 {
+    padding-left: 32px;
+    margin-bottom: 32px; }
+    .aside_menu h1 a {
+      display: block;
+      background-image: url("../images/logo-ANSWER.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 150px;
+      height: 40px;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap; }
+  .aside_menu .list-group-item {
+    border: none;
+    border-left: 4px solid transparent;
+    background-color: transparent;
+    padding: 12px 0 12px 32px; }
+    .aside_menu .list-group-item:hover {
+      color: #2A8356;
+      border-left: 4px solid #2A8356; }
+  .aside_menu .active {
+    background-color: transparent;
+    border-left: 4px solid #2A8356;
+    color: #2A8356; }
+  .aside_menu .user_info {
+    padding-left: 32px; }
+    .aside_menu .user_info .user_info_p {
+      margin-left: 8px; }
+    .aside_menu .user_info p {
+      margin: 0; }
+      .aside_menu .user_info p:nth-child(1) {
+        font-size: 16px;
+        color: #121212; }
+      .aside_menu .user_info p:nth-child(2) {
+        font-size: 14px;
+        color: #0000009A; }
+
+.title {
+  margin-bottom: 44px; }
+
+.title_option h2 {
+  margin-right: 46px;
+  margin-bottom: 0; }
+
+.title_option select {
+  border: none; }
+
+.search_note a {
+  color: #2A8356; }
+
+.assignment_info h3 {
+  font-size: 16px;
+  margin-bottom: 4px; }
+
+.assignment_title {
+  width: 32.52%;
+  margin-right: 16px; }
+  .assignment_title a {
+    color: #121212;
+    border: 1px solid #CDDDCD; }
+    .assignment_title a:hover {
+      background-color: #EDF4EE; }
+  .assignment_title .active {
+    background-color: #EDF4EE;
+    color: #121212;
+    border: 1px solid #CDDDCD; }
+
+.assignment_detail {
+  width: 67.48%; }
+  .assignment_detail .my_process {
+    position: absolute;
+    right: 16px;
+    top: 16px; }
+    .assignment_detail .my_process a:nth-child(1) {
+      margin-right: 24px; }
+  .assignment_detail .comments_num {
+    margin: 0 0 8px;
+    color: #707070;
+    font-size: 12px;
+    margin-bottom: 8px; }
+  .assignment_detail .card {
+    border: 1px solid #CDDDCD; }
+  .assignment_detail .card-body {
+    position: relative;
+    padding: 16px 16px 0; }
+  .assignment_detail .card-header {
+    background-color: #EDF4EE; }
+  .assignment_detail .card_detials {
+    margin-left: 8px; }
+  .assignment_detail .card_hr {
+    height: 1px;
+    background-color: #CDDDCD;
+    margin-top: 16px; }
+  .assignment_detail .file_btn {
+    width: 32.11%;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #EDF4EE;
+    color: #121212; }
+    .assignment_detail .file_btn:hover {
+      background-color: #CDDDCD;
+      text-decoration: none; }
+  .assignment_detail .arrow_icon {
+    color: #121212; }
+    .assignment_detail .arrow_icon:hover {
+      color: #2A8356; }
+  .assignment_detail .mark_btn {
+    border: 1px solid #2A8356;
+    color: #2A8356;
+    margin-right: 16px; }
+    .assignment_detail .mark_btn:hover {
+      background-color: #CDDDCD; }
+  .assignment_detail .reply_btn {
+    background-color: #2A8356;
+    color: #fff; }
+    .assignment_detail .reply_btn:hover {
+      background-color: #CDDDCD;
+      color: #121212; }
+  .assignment_detail .process_page ul {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=all.css.map */

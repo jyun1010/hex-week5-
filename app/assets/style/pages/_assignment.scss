@@ -1,0 +1,101 @@
+.assignment_info{
+  h3{
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+}
+
+.assignment_title{
+  width: 32.52%;
+  margin-right: $space-4;
+ 
+  a{
+    color: $text-secondary;
+    border: 1px solid $bg-secondary;
+    &:hover{
+      background-color: $bg-primary;
+    }
+  }
+  .active{
+    background-color: $bg-primary;
+    color: $text-secondary;
+    border: 1px solid $bg-secondary;
+  }
+}
+
+.assignment_detail{
+  width: 67.48%;
+  .my_process{
+    position: absolute;
+    right: $space-4;
+    top: $space-4;
+    a:nth-child(1){
+      margin-right: 24px;
+    }
+  }
+  .comments_num{
+    margin: 0 0 $space-2;
+    color: #707070;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .card{
+    border: 1px solid $bg-secondary;
+  }
+  .card-body{
+    position: relative;
+    padding: $space-4  $space-4 0;
+  }
+  .card-header{
+    background-color: $bg-primary;
+  }
+  .card_detials{
+    margin-left: $space-2;
+  }
+  .card_hr{
+    height: 1px;
+    background-color: $bg-secondary;
+    margin-top: $space-4;
+  }
+  .file_btn{
+    width: 32.11%;
+    padding: $space-2;
+    font-weight: bold;
+    background-color: $bg-primary;
+    color: $text-secondary;
+
+    &:hover{
+      background-color: $bg-secondary;
+      text-decoration:none;
+    }
+  }
+
+  .arrow_icon{
+    color: $text-secondary;
+    &:hover{
+     color: $text-primary;
+    }
+  }
+
+  .mark_btn{
+    border: 1px solid $text-primary;
+    color: $text-primary;
+    margin-right: $space-4;
+    &:hover{
+      background-color: $bg-secondary;
+    }
+  }
+  .reply_btn{
+    background-color: $text-primary;
+    color: #fff;
+    &:hover{
+      background-color: $bg-secondary;
+      color: $text-secondary;
+    }
+  }
+  .process_page{
+    ul{
+      margin-bottom: 0;
+    }
+  }
+}

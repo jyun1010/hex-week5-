@@ -1,0 +1,56 @@
+.aside_menu {
+  min-width: 23.125%;
+  min-height: 100vh;
+  background-color: $bg-primary;
+  padding: $space-5 $space-0;
+  h1 {
+    padding-left: $space-5;
+    margin-bottom: $space-5;
+    a {
+      display: block;
+      background-image: url("../images/logo-ANSWER.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 150px;
+      height: 40px;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+  .list-group-item {
+    border: none;
+    border-left: 4px solid transparent;
+    background-color: transparent;
+    padding: $space-3 0 $space-3 $space-5;
+    &:hover {
+      color: $text-primary;
+      border-left: 4px solid $text-primary;
+    }
+  }
+  .active {
+    background-color: transparent;
+    border-left: 4px solid $text-primary;
+    color: $text-primary;
+  }
+  .user_info {
+    padding-left: $space-5;
+    .user_info_p{
+      margin-left: $space-2;
+    }
+    p {
+      margin: 0 ;
+      &:nth-child(1) {
+        font-size: 16px;
+        color: $text-secondary;
+      }
+      &:nth-child(2) {
+        font-size: 14px;
+        color: #0000009A;
+      }
+    }
+    
+  }
+}

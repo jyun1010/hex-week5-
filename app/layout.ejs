@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid d-flex">
+      <div class="aside_menu d-flex flex-column justify-content-between">
+        <ul class="list-group">
+          <h1 class="">
+            <a href="#"> </a>
+          </h1>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="material-icons align-middle">assessment</span>
+              <span class="align-middle">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="material-icons align-middle">question_answer</span>
+              <span class="align-middle">Question</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action active">
+              <span class="material-icons align-middle">assignment</span>
+              <span class="align-middle">Assignment</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="material-icons align-middle">video_library</span>
+              <span class="align-middle">Course</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="material-icons align-middle">people_alt</span>
+              <span class="align-middle">Admin</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="material-icons align-middle">settings</span>
+              <span class="align-middle">Settings</span>
+            </a>
+          </li>
+        </ul>
+        <div class="user_info d-flex align-content-center">
+          <img src="./assets/images/andychen.jpeg" alt="" class="head_img" />
+          <div class="user_info_p d-flex flex-column">
+            <p>Andy Chen</p>
+            <p>andy0401@mail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content w-100">
+        <div class="title d-flex justify-content-between align-items-center">
+          <div class="title_option d-flex align-items-center">
+            <h2>Assignment</h2>
+            <form action="">
+              <select name="" id="">
+                <option value="ALL">All Courses</option>
+                <option value="1">1 Courses</option>
+                <option value="2">2 Courses</option>
+              </select>
+            </form>
+          </div>
+          <ul class="search_note d-flex list-unstyled">
+            <li class="mr-4">
+              <a href="#" class="material-icons"> search </a>
+            </li>
+            <li>
+              <a href="#" class="material-icons"> notifications_active </a>
+            </li>
+          </ul>
+        </div>
+        <%- contents %>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>

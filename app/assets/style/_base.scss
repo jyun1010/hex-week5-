@@ -1,0 +1,45 @@
+/* 全站設定 */
+*{
+    box-sizing: border-box; 
+}
+img {
+    display:block;
+    max-width:100%;
+    height:auto; 
+}
+.head_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.material-icons{
+    color: $text-primary;
+    &:hover{
+        color:$text-secondary;
+        text-decoration:none;
+    }
+}
+// .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+//     margin-bottom: 0; 
+//     font-family: inherit;
+//     font-weight: 500;
+//     line-height: 1.2;
+//     color: inherit;
+// }
+
+.container-fluid{
+    padding: 0;
+}
+
+.content{
+    min-width:76.875%;
+    min-height: 100vh;
+    padding: $space-5;
+    color: $text-secondary;
+}
+
+.position_r{
+    position: relative;
+}
+
